@@ -35,3 +35,10 @@ function buildToDo(todo){
 function handleDelete(e){
   e.target.parentNode.remove()
 }
+
+document.querySelector('#tasks').addEventListener("click", function(e){
+  if(e.target.tagName === "LI"){
+    e.target.classList.toggle("checked");
+  }
+  
+})
