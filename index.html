@@ -37,9 +37,24 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <div class="container">
+  <div id="main-content">
     <div class="todo-app">
       <h1>To-do List <img src="images/icon.png" alt=""></h1>
+      <div class="row">
+        <form id="create-task-form" action="" method="POST">
+          <input type="text" id="input_box" name="new-task-description" placeholder="description">
+          <input id="submit_button" type="submit" value="Add">
+        </form>
+
+
+        <!-- <input type="text" id="input-box" placeholder="Add your text">
+        <button>Add</button> -->
+      </div>
+      <ul id="tasks">
+        <!-- <li class="checked">Task 1</li>
+        <li>Task 2</li>
+        <li>Task 3</li> -->
+      </ul>
     </div>
   </div>
 
@@ -75,7 +90,7 @@
 
     <script src="./src/index.js"></script>
   </div> -->
-
+  <script src="./src/index.js"></script>
 </body>
 </html>
 
