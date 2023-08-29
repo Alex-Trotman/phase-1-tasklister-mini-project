@@ -1,4 +1,4 @@
-html {
+/* html {
   height: 100%;
   width: 100%;
   font-family: "Titillium Web", sans-serif;
@@ -34,4 +34,18 @@ button {
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
+} */
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 100%;
+  min-height: 100vh;
+  background: rgb(185,0,0);
+  background: linear-gradient(135deg, rgba(185,0,0,1) 0%, rgba(85,3,139,1) 47%, rgba(21,0,255,1) 100%);
 }
