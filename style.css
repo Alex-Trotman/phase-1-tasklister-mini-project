@@ -49,3 +49,13 @@ button {
   background: rgb(185,0,0);
   background: linear-gradient(135deg, rgba(185,0,0,1) 0%, rgba(85,3,139,1) 47%, rgba(21,0,255,1) 100%);
 }
+
+.todo-app {
+  width: 100%;
+  max-width: 540px;
+  background: #fff;
+  /* margin: 100px auto 20px; */
+  margin: auto;
+  padding: 40px 30px 70px;
+  border-radius: 10px;
+}
